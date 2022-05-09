@@ -2,6 +2,7 @@ package com.company;
 
 public class BST<K extends Comparable<K>, V>{
     private Node root;
+    int size;
     private class Node{
         private K key;
         private V val;
@@ -12,6 +13,7 @@ public class BST<K extends Comparable<K>, V>{
             this.val = val;
         }
     }
+
     public void put(K key, V val){
         //code
     }
